@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure--$!*36-hef+q$w+503e9z-o(1))p-1n(-=h67onxzry=xoq#dd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['marketplace-idl8.onrender.com','127.0.0.1:3000']
+ALLOWED_HOSTS = ['marketplace-idl8.onrender.com','0.0.0.0:8000']
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
